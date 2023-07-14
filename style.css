@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    transform-origin: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    background: #ffffff url(./assert/kitty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 260px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.eyes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.eye {
+    width: 79.7px;
+    height: 68px;
+    border-radius: 50%;
+    float: left;
+    margin: -10px;
+    text-align: center;
+}
+
+.ball {
+    background: url(./assert/eye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
